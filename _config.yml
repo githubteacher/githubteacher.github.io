@@ -4,7 +4,7 @@ header-img: img/home-bg.jpg
 email: services@github.com
 copyright_name: Your/Project/Corporate Name
 description: "A portfolio for githubteacher"
-baseurl: "/"
+baseurl:
 url: "https://githubteacher.github.io"
 twitter_username: githubtraining
 github_username:  githubteacher
