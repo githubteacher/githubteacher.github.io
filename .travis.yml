@@ -1,5 +1,7 @@
 language: ruby
 rvm:
-  - 2.2
-  - jruby
-  - rbx-2
+- 2.1
+sudo: false
+script:
+  - ruby tests/test_check1.rb
+  - bundle exec jekyll build
