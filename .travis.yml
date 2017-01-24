@@ -6,4 +6,4 @@ install:
   - bundle install
 script:
   - bundle exec jekyll build
-  - htmlproofer ./_site --check_external_hash
+  - htmlproofer ./_site --check_external_hash --check_html
