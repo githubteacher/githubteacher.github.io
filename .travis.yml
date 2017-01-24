@@ -2,6 +2,8 @@ language: ruby
 rvm:
 - 2.3.0
 sudo: false
+install:
+  - bundle install
 script:
   - bundle exec jekyll build
   - htmlproofer ./_site
