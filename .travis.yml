@@ -6,4 +6,4 @@ install:
   - bundle install
 script:
   - bundle exec jekyll build
-  - rails build
+  - rake build
