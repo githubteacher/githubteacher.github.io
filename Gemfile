@@ -7,3 +7,8 @@ group :jekyll_plugins do
   gem "jekyll"
   gem "html-proofer"
 end
+
+group :test do
+  gem 'html-proofer'
+  gem 'rake'
+end
