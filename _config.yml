@@ -2,14 +2,14 @@
 title: GitHub Teacher's Awesome Portfolio
 header-img: img/home-bg.jpg
 email: services@github.com
-copyright_name: Your/Project/Corporate Name
+copyright_name: GitHub, Inc.
 description: "A portfolio for githubteacher"
 baseurl:
 url: "https://githubteacher.github.io"
 twitter_username: githubtraining
 github_username:  githubteacher
 facebook_username:  github
-email_username:  your-email@yourdomain.com
+email_username:  services@github.com
 
 # Google Analytics
 # To enable google analytics, uncomment below line with a valid Google Tracking ID
