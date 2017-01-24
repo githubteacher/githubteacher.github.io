@@ -33,6 +33,9 @@ header-img: "img/post-bg-05.jpg"
 <a href="#">
     <img src="{{ site.baseurl }}/img/post-sample-image.jpg" alt="Post Sample Image">
 </a>
+
+<a href="htp:/broken"> Broken link. </a>
+
 <span class="caption text-muted">To go places and do things that have never been done before – that’s what living is all about.</span>
 
 <p>Space, the final frontier. These are the voyages of the Starship Enterprise. Its five-year mission: to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no man has gone before.</p>
