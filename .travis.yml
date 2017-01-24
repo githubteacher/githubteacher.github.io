@@ -6,4 +6,4 @@ install:
   - bundle install
 script:
   - bundle exec jekyll build
-  - bundle exec rake test
+  - htmlproofer ./_site
