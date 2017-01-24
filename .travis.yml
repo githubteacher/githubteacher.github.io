@@ -5,5 +5,4 @@ sudo: false
 install:
   - bundle install
 script:
-  - bundle exec jekyll build
-  - htmlproofer ./_site
+  - bundle exec jekyll build && htmlproofer ./_site
