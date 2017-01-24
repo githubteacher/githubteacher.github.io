@@ -7,3 +7,9 @@ group :jekyll_plugins do
   gem "jekyll"
   gem "html-proofer"
 end
+
+group :test do
+  gem 'rake'
+  gem 'html-pipeline', '~> 1.11'
+  gem 'github-markdown', '~> 0.6.8'
+end
