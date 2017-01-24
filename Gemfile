@@ -11,4 +11,6 @@ end
 group :test do
   gem 'html-proofer'
   gem 'rake'
+  gem 'html-pipeline', '~> 1.11'
+  gem 'github-markdown', '~> 0.6.8'
 end
