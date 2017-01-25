@@ -1,10 +1,9 @@
 language: ruby
 rvm:
-- 2.3.0
+  - 2.3.0
 sudo: false
+bundler_args: --binstubs .bundle/binstubs --path .bundle
 install:
   - bundle install
 script:
-  - set -e
-  - bundle exec jekyll build
-  - htmlproofer ./_site
+  - script/cibuild

@@ -1,0 +1,16 @@
+#!/bin/sh
+#/ Usage: update
+#/
+#/ Update bundle dependencies.
+#/
+#/ Examples:
+#/
+#/   update
+#/
+
+set -e
+
+set -e
+export CC=gcc
+
+script/bootstrap

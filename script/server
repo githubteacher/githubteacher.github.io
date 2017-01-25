@@ -1,0 +1,16 @@
+#!/bin/sh
+#/ Usage: server [options]
+#/
+#/ Start the development server.
+#/
+#/ Examples:
+#/
+#/   server
+#/   server --incremental
+#/
+
+set -e
+
+script/update
+
+bundle exec jekyll serve "$@"
