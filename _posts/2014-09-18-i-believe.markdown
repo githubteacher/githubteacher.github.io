@@ -32,7 +32,7 @@ header-img: "img/post-bg-05.jpg"
 
     <img src="{{ site.baseurl }}/img/post-sample-image.jpg" alt="Post Sample Image">
 
-<a href="http://broken.broken.broken"> Broken link. </a>
+<a href="htp:/broke"> Broken link. </a>
 
 <span class="caption text-muted">To go places and do things that have never been done before – that’s what living is all about.</span>
 
